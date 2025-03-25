@@ -1,0 +1,372 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Poppins:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'poppins' , 'serif';
+
+}
+body{
+    background-color:  #222831; ;
+
+
+
+}
+header{
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    padding: 0.0 5rem;
+    margin: 2rem auto;
+    max-width: 1200px;
+   
+
+
+}
+.navigation ul{
+    display: flex;
+    list-style-type: none;
+    gap: 2rem;
+    
+   
+
+}
+.navigation a{
+    text-decoration: none;
+    color: white;
+    transition: transform 0.2s;
+
+
+
+}
+.navigation a:hover{
+    color: aqua;
+    
+   
+}
+hr{
+    opacity: 10%;
+
+
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    margin: 5rem auto ;
+    max-width: 1200px;
+}
+.arrow{
+    position: absolute;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.heroSup{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+
+}
+.name{
+    font-size: 3rem;
+    color:antiquewhite
+}
+.title{
+    font-size : 4rem;
+    flex-direction: row;
+
+}
+.herobtns{
+    display: flex;
+    gap: 1.5rem;
+    margin-top: 1rem;
+
+}
+.hireMe{
+    background-color: rgb(52, 150, 150);
+    color: whitesmoke;
+    border-radius: 24px;
+    text-decoration: none;
+    padding: 0.5rem  1.5rem;
+    text-shadow: 0px 4px 4px rgb (0, 0, 0, 0.5); 
+
+}
+.cv{
+    background-color: rgb(48, 77, 77);
+    color: rgb(255, 255, 255);
+    border-radius: 24px;
+    text-decoration: none;
+    padding: 0.5rem  1.5rem;
+    backdrop-filter: blur(4px);
+
+}
+.herobtns a:hover{
+    color:black;
+
+
+}
+.aboutMe{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5rem auto;
+    max-width: 1200px;
+    gap: 10rem;
+
+}
+.textContainer{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 2rem;
+
+
+}
+.texttitle{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 2rem;
+
+
+}
+.aboutname{
+    color: azure;
+}
+.abouthassan{
+    text-align: justify;
+    color: rgba(238, 238, 238, 0.75);
+}
+.works{
+    background-image: url(assets/assets/svg/background.svg);
+    padding: 5rem 5rem;
+    margin: 5rem 0rem;
+
+
+
+
+}
+.workscontainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    margin: 5rem auto;
+    max-width:  1200px;
+    
+
+
+
+}
+.projectstitle {
+    display: flex;
+    align-items:center;
+    justify-content: left;
+    gap: 5px;
+    font-size: 2rem;
+
+
+}
+.aboutname{
+    color: black;
+    
+
+
+}
+
+.abouttitle{
+    color: aqua;
+
+
+}
+.worksli{
+    border-radius: 16px;
+    background-color:rgb(72, 95, 95);
+    backdrop-filter: blur(4px);
+    padding: 1rem 4rem;
+    object-fit: contain;
+    transition: transform 0.2s;
+   
+
+
+}
+.worksli:hover{
+
+    transform:scale(2.5);
+    color: aqua;
+    
+
+}
+.contactcontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 2rem;
+    margin: 2rem;
+    max-width: 1200px;
+
+}
+.contactTitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 10px;
+    font-size: 2rem;
+
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    
+    
+
+
+
+}
+.contact h3   {
+
+    color: antiquewhite;
+    text-decoration: none;
+   
+   
+
+
+}
+.socialMedia img {
+    width: 100px;
+    height: 100px;
+
+
+
+}
+.socialMedia{
+    transition: transform 0.2s;
+
+
+
+}
+.socialMedia :hover{
+    transform:scale(1.5);
+    color: aqua;
+
+
+
+
+}
+footer{
+    text-align: center;
+    padding: 2rem;
+    color: bisque;
+
+
+
+}
+@media(max-width: 1023px){
+    header {
+       margin-bottom: 20pxx;
+      }
+      .hero {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        padding: 1rem;
+      }
+     
+      }
+      .name, .title {
+        font-size: 1rem;
+      }
+      .arrow {
+        display: none;
+      }
+      .aboutMe {
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 2rem;
+      }
+      .textContainer {
+        align-items: center;
+        margin: 0rem 3rem;
+        gap: 1rem;
+      }
+      .aboutName, .aboutTitle {
+        font-size: 1rem;
+      }
+      .light {
+        width: 60px;
+      }
+      .aboutMeImg {
+        width: 200px;
+      }
+      .works {
+        padding: 0;
+      }
+      .worksContainer {
+        padding: 2rem 0rem;
+        gap: 2rem;
+      }
+      .projectTitle {
+        margin-left: 0.5rem;
+      }
+      .works ul {
+        flex-direction: column;
+        gap: 1rem;
+      }
+      .contactContainer {
+        margin: 10rem 5rem;
+        gap: 1rem;
+      }
+      .contact {
+        flex-direction: column;
+        gap: 1rem;
+        margin-right: 0;
+       
+      }
+    .aboutMePar{
+
+        padding: 1rem 0.5rem;
+        gap: 1rem;
+
+
+    }
+    .heroImg{
+        height: 400px;
+        width: 400px;
+
+
+
+
+    }
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
